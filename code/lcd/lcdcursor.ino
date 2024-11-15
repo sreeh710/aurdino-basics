@@ -12,9 +12,12 @@ void setup() {
   // put your setup code here, to run once:
   lcd.begin(16, 2);
   lcd.setCursor(0,0);
-  lcd.print("Welcome to Aurdino !");
-  lcd.setCursor(0,1);
+  lcd.print("Welcome Aurdino!");
+  lcd.setCursor(5,1);
   lcd.print("Awesome ! ");
+  delay(1000);
+  lcd.setCursor(0,0);
+  lcd.print("   You Are        ");
 
   }
 
